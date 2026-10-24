@@ -4,13 +4,13 @@ Code for the official OhioT1DM test-set comparison of Chronos test-time scaling,
 
 ## Scripts
 
-- `45_prepare_official_test_windows.py` — prepares official test windows from locally obtained OhioT1DM data.
-- `47_generate_official_test_chronos.py` — generates Chronos candidates.
-- `40_prepare_lstm_dataset.py` — prepares LSTM training data.
-- `44_lstm_multiseed_robustness.py` — trains the five-seed LSTM ensemble.
-- `46_evaluate_lstm_official_test.py` — evaluates LSTM predictions on the official test set.
-- `48_official_test_benchmark.py` — calculates MAE/RMSE comparison results.
-- `49_official_test_verifier.py` and `verifiers/rules_analytical.py` — existing analytical verifier implementation (preserved unchanged).
+- `prepare_official_test_windows.py` — prepares official test windows from locally obtained OhioT1DM data.
+- `generate_official_test_chronos.py` — generates Chronos candidates.
+- `prepare_lstm_dataset.py` — prepares LSTM training data.
+- `lstm_multiseed_robustness.py` — trains the five-seed LSTM ensemble.
+- `evaluate_lstm_official_test.py` — evaluates LSTM predictions on the official test set.
+- `official_test_benchmark.py` — calculates MAE/RMSE comparison results.
+- `official_test_verifier.py` and `verifiers/rules_analytical.py` — existing analytical verifier implementation (preserved unchanged).
 
 ## Data
 
